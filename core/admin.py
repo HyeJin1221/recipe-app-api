@@ -43,4 +43,8 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
+<<<<<<< HEAD
 admin.site.register(models.User,UserAdmin)
+=======
+admin.site.register(models.User,UserAdmin)
+>>>>>>> 1e18a8600c52a1323b6613e527b04a875c898382

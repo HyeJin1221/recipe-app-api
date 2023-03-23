@@ -1,7 +1,11 @@
 """config URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
+<<<<<<< HEAD
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
+=======
+    https://docs.djangoproject.com/en/4.1/topics/http/urls/
+>>>>>>> 1e18a8600c52a1323b6613e527b04a875c898382
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -20,7 +24,10 @@ from drf_spectacular.views import (
 from django.contrib import admin
 from django.urls import path
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1e18a8600c52a1323b6613e527b04a875c898382
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/schema/', SpectacularAPIView.as_view(), name = 'api-schema'),
